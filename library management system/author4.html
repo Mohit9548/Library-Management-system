@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detail</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .author-details {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .author-details img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .author-description {
+            text-align: justify;
+        }
+        .menu-icon {
+            display: none;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin-right: 20px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .menu ul {
+                display: none;
+            }
+            
+            .menu-icon {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/01acf8d7b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Home</a></li>
+            <li>
+                <i class="fa-regular fa-address-book"></i>
+                <a href="contactus.html">Contact</a></li>
+            <li>
+                <i class="fa-solid fa-comment"></i>
+                <a href="feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+
+<div class="container">
+    <div class="author-details">
+        <img src="images/author4.jpg" alt="Author Image">
+        <h2> Andrew Hunt, David Thomas</h2>
+        <p>Birthdate: January 1, 1980</p>
+        <p>Nationality: American</p>
+    </div>
+    <div class="author-description">
+        <p>Andy Hunt (sometimes credited as Andrew Hunt) is an author on software development. Hunt co-authored The Pragmatic Programmer, ten other books and many articles, and was one of the 17 original authors of the Agile Manifesto. He and partner Dave Thomas founded the Pragmatic Bookshelf series of books for software developers. He also plays the trumpet, flugel horn, and keyboards and produces music at Strange & Special Air Productions</p>
+        <p>Practices of an Agile Developer, Venkat Subramaniam and Andy Hunt, 2006, The Pragmatic Bookshelf, ISBN 0-9745140-8-X
+            Pragmatic Thinking and Learning: Refactor Your Wetware, Andy Hunt, 2008, The Pragmatic Bookshelf, ISBN 978-1-934356-05-0
+            "Learn to Program using Minecraft Plugins with Bukkit", Andy Hunt, 2014, The Pragmatic Bookshelf, ISBN 978-1-93778-578-9
+            "Learn to Program using Minecraft Plugins, 2nd Ed with CanaryMod", Andy Hunt, 2014, The Pragmatic Bookshelf, ISBN 978-1-94122-294-2</p>
+    </div>
+</div>
+</div>
+<a href="index.html" class="back-button">Back to Book List</a>
+</div>
+
+</body>
+</html>

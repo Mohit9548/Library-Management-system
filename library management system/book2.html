@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Detail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .book-details {
+            text-align: center;
+        }
+        .book-details img {
+            max-width: 100%;
+            height: auto;
+        }
+        .back-button {
+            margin-top: 20px;
+        }
+        .menu-icon {
+            display: none;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin-right: 20px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .menu ul {
+                display: none;
+            }
+            
+            .menu-icon {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/01acf8d7b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Home</a></li>
+            <li>
+                <i class="fa-regular fa-address-book"></i>
+                <a href="contactus.html">Contact</a></li>
+            <li>
+                <i class="fa-solid fa-comment"></i>
+                <a href="feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+
+<div class="container">
+    <div class="book-details">
+        <img src="images/img2.jpg" alt="Book 2">
+        <h2>Structure and Interpretation of Computer Programs</h2>
+        <p>Author:  Harold Abelson, Gerald Jay Sussman, Julie Sussman </p>
+    
+        <p>This computer science book was written by the faculty of Electrical Engineering and Computer Science Department at MIT, and it’s based on the curriculum they teach.
+
+            As you might expect from prestigious academic authors, it’s fairly dense content that you’ll need to dedicate some brainpower to! If you do, you’ll gain deep and valuable knowledge of programming systems and procedures.</p>
+    </div>
+    <a href="index.html" class="back-button">Back to Book List</a>
+</div>
+
+</body>
+</html>

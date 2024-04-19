@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detail</title>
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .author-details {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .author-details img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .author-description {
+            text-align: justify;
+        }
+        .menu-icon {
+            display: none;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin-right: 20px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .menu ul {
+                display: none;
+            }
+            
+            .menu-icon {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/01acf8d7b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Home</a></li>
+            <li>
+                <i class="fa-regular fa-address-book"></i>
+                <a href="contactus.html">Contact</a></li>
+            <li>
+                <i class="fa-solid fa-comment"></i>
+                <a href="feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+<div class="container">
+    <div class="author-details">
+        <img src="images/author2.jpg" alt="Author Image">
+        <h2>Harold Abelson, Gerald Jay Sussman, Julie Sussman</h2>
+        <p>Birthdate:April 26, 1947</p>
+        <p>Nationality: American</p>
+    </div>
+    <div class="author-description">
+        <p>Harold Abelson (born April 26, 1947)[2] is an American mathematician and computer scientist. He is a professor of computer science and engineering in the Department of Electrical Engineering and Computer Science at the Massachusetts Institute of Technology (MIT), a founding director of both Creative Commons[5] and the Free Software Foundation,[6] creator of the MIT App Inventor platform, and co-author of the widely-used textbook Structure and Interpretation of Computer Programs, sometimes also referred to as "the wizard book."</p>
+        <p>He directed the first implementation of the language Logo for the Apple II, which made the language widely available on personal computers starting in 1981; and published a widely selling book on Logo in 1982. Together with Gerald Jay Sussman, Abelson developed MIT's introductory computer science subject, The Structure and Interpretation of Computer Programs (called by the course number, 6.001), a subject organized around the idea that a computer language is primarily a formal medium for expressing ideas about methodology, rather than just a way to get a computer to perform operations. Abelson and Sussman also cooperate in codirecting the MIT Project on Mathematics and Computation. The MIT OpenCourseWare (OCW) project was spearheaded by Abelson and other MIT faculty.</p>
+    </div>
+</div>
+</div>
+<a href="index.html" class="back-button">Back to Book List</a>
+</div>
+
+</body>
+</html>

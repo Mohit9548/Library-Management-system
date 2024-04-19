@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .author-details {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .author-details img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .author-description {
+            text-shadow: 0cap;
+            text-align: justify;
+        }
+        .menu-icon {
+            display: none;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin-right: 20px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .menu ul {
+                display: none;
+            }
+            
+            .menu-icon {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/01acf8d7b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Home</a></li>
+            <li>
+                <i class="fa-regular fa-address-book"></i>
+                <a href="contactus.html">Contact</a></li>
+            <li>
+                <i class="fa-solid fa-comment"></i>
+                <a href="feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+
+<div class="container">
+    <div class="author-details">
+        <img src="images/author6.jpg" alt="Author Image">
+        <h2>Max Kanat-Alexande</h2>
+        <p>Birthdate:May 25th, 1980</p>
+        <p>Nationality: American</p>
+    </div>
+    <div class="author-description">
+        <p>I am the founding technical lead for the Knowledge Systems team inside of the Productivity & Happiness org. We provide data-based insights, documentation systems, and internal search tools to help LinkedIn's engineers and engineering leaders do the best work they possibly can.
+
+            We built a set of feedback systems and metrics, plus a system called "Insights Hub" that turns this data into action for teams across the entire engineering org. We implemented the standard in-repo documentation system that LinkedIn Engineering uses. We also own and maintain LinkedIn's internal search systems used to find information within the company. And these are just a few pieces of our long-term vision to transform engineering across LinkedIn through data-based insights and knowledge.
+            
+            I am also one of the overall tech leads for LinkedIn's Productivity & Happiness org. I provide guidance and leadership for LinkedIn's developer productivity platform and engineering systems..</p>
+        
+    </div>
+</div>
+</div>
+<a href="index.html" class="back-button">Back to Book List</a>
+</div>
+
+</body>
+</html>

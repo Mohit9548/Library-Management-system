@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detail</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .author-details {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .author-details img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .author-description {
+            text-align: justify;
+        }
+        .menu-icon {
+            display: none;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin-right: 20px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .menu ul {
+                display: none;
+            }
+            
+            .menu-icon {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/01acf8d7b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Home</a></li>
+            <li>
+                <i class="fa-regular fa-address-book"></i>
+                <a href="contactus.html">Contact</a></li>
+            <li>
+                <i class="fa-solid fa-comment"></i>
+                <a href="feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+
+<div class="container">
+    <div class="author-details">
+        <img src="images/author3.jpg" alt="Author Image">
+        <h2>Steve McConnell</h2>
+        <p>Birthdate: January 1, 1980</p>
+        <p>Nationality: American</p>
+    </div>
+    <div class="author-description">
+        <p>STEVE MCCONNELL is best known as the author of Code Complete, a software industry classic that is often described as the best-reviewed, best-selling software development book of all time. Steve’s books have sold more than 1 million copies and have been translated into 20 languages. His most recent book is More Effective Agile: A Roadmap for Software Leaders.</p>
+        <p>Steve has been recognized as one of the world’s leading software development experts for more than two decades and has worked with hundreds of software leaders in organizations ranging from Fortune 500 companies to garage start-ups. In 1998, readers of Software Development magazine named Steve one of the three most influential people in the software industry, along with Bill Gates and Linus Torvalds.  In 2019, the Forbes Technology Council named his book, Code Complete, “the single best cornerstone book on good software development.” Steve has been quoted in The Economist, The New York Times, The Guardian, and other major publications.</p>
+    </div>
+</div>
+</div>
+<a href="index.html" class="back-button">Back to Book List</a>
+</div>
+
+</body>
+</html>

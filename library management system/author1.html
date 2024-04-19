@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detail</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .author-details {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .author-details img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .author-description {
+            text-shadow: 0cap;
+            text-align: justify;
+        }
+        .menu-icon {
+            display: none;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .menu ul li {
+            margin-right: 20px;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .menu ul {
+                display: none;
+            }
+            
+            .menu-icon {
+                display: block;
+                cursor: pointer;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/01acf8d7b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <ul>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="index.html">Home</a></li>
+            <li>
+                <i class="fa-regular fa-address-book"></i>
+                <a href="contactus.html">Contact</a></li>
+            <li>
+                <i class="fa-solid fa-comment"></i>
+                <a href="feedback.html">Feedback</a></li>
+        </ul>
+    </div>
+
+<div class="container">
+    <div class="author-details">
+        <img src="images/author1.jpg" alt="Author Image">
+        <h2>Jon Stokes</h2>
+        <p>Birthdate: January 1, 1980</p>
+        <p>Nationality: American</p>
+    </div>
+    <div class="author-description">
+        <p>John Stokes is known internationally as one of Australia's most evocative and daring writers. He has won, been commended, and short or long-listed for many major prizes and is on a passionate campaign to bring back plain- speaking for the most intense writings in English. His work has been published widely and he publicly reads, tutors and is involved in management of all things literary. His latest book, Fire in the Afternoon, (Halstead Press) won a National Writing and Publishing Award for best book of 2015.</p>
+        
+    
+    </div>
+</div>
+</div>
+<a href="index.html" class="back-button">Back to Book List</a>
+</div>
+
+</body>
+</html>
